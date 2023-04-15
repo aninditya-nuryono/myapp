@@ -7,6 +7,8 @@ import folium
 from scipy.stats import ttest_ind
 import streamlit as st
 from PIL import Image
+import requests
+import io
 
 st.header(
     """
@@ -14,7 +16,11 @@ st.header(
     """
 )
 
+url = 'https://raw.githubusercontent.com/aninditya-nuryono/myapp/main/bike.jpg'
+image_content = requests.get(url).content
+image = Image.open(io.BytesIO(image_content))
 
+st.sidebar.image(image, caption='Welcome to bike sharing', use_column_width=True)
 hour = pd.read_csv('https://raw.githubusercontent.com/aninditya-nuryono/myapp/main/hour.csv')
 day = pd.read_csv('https://raw.githubusercontent.com/aninditya-nuryono/myapp/main/day.csv')
 
