@@ -11,4 +11,4 @@ pip install numpy pandas scipy matplotlib seaborn jupyter streamlit scipy Pillow
 ```
 streamlit run dashboard.py
 ```
-https://aninditya-nuryono-myapp-myapp-dv7tyn.streamlit.app/
+https://aninditya-nuryono-myapp-dashboard-8o6pxe.streamlit.app/
