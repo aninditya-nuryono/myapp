@@ -1,3 +1,5 @@
+pip install streamlit
+
 from scipy.stats import pearsonr
 import pandas as pd
 import numpy as np
@@ -7,6 +9,8 @@ import folium
 from scipy.stats import ttest_ind
 import streamlit as st
 from PIL import Image
+
+
 
 st.header(
     """
