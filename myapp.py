@@ -19,7 +19,7 @@ st.header(
 
 
 hour = pd.read_csv('https://github.com/aninditya-nuryono/myapp/blob/main/hour.csv')
-day = pd.read_csv('https://github.com/aninditya-nuryono/myapp/blob/main/day.csv)
+day = pd.read_csv('https://github.com/aninditya-nuryono/myapp/blob/main/day.csv')
 
 
 # Menampilkan informasi dari dataframe hour
