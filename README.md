@@ -16,6 +16,4 @@ streamlit run dashboard.py
 
 ## Run steamlit app cloud
 
-```
-
 https://aninditya-nuryono-myapp-dashboard-8o6pxe.streamlit.app/
