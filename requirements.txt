@@ -7,4 +7,3 @@ folium
 streamlit
 Pillow
 requests
-io
