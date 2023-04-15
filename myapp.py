@@ -8,7 +8,7 @@ from scipy.stats import ttest_ind
 import streamlit as st
 from PIL import Image
 
-image = Image.open('C:/Users/anind/OneDrive/Desktop/bike.jpg')
+image = Image.open('https://github.com/aninditya-nuryono/myapp/blob/main/bike.jpg')
 st.sidebar.image(image, caption='bike sharing', use_column_width=True)
 
 st.header(
@@ -18,8 +18,8 @@ st.header(
 )
 
 
-hour = pd.read_csv('hour.csv')
-day = pd.read_csv('day.csv')
+hour = pd.read_csv('https://github.com/aninditya-nuryono/myapp/blob/main/hour.csv')
+day = pd.read_csv('https://github.com/aninditya-nuryono/myapp/blob/main/day.csv)
 
 
 # Menampilkan informasi dari dataframe hour
